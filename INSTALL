@@ -1,0 +1,9 @@
+Building Negancoin
+
+See doc/readme-qt.rst for instructions on building Negancoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Negancoin.
+
+See doc/build-*.txt for instructions on building negancoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Negancoin.

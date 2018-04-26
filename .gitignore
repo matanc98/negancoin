@@ -1,0 +1,34 @@
+src/*.exe
+src/negancoin
+src/negancoind
+src/test_negancoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.negancoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+negancoin-qt
+Negancoin-Qt.app
+
+# Unit-tests
+Makefile.test
+negancoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
